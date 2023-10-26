@@ -1,0 +1,113 @@
+/* Mobile */
+
+/* DONE: Define all Styles Properties that will be rule 
+  for mobile and web
+  IMPORTANT:
+  -Start with setting dimensions for mobile
+  */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 393px; /* Fix the problem */
+}
+
+header {
+  display: flex; /* This property will not change */
+  justify-content: center; /* changed */
+  align-items: center; /* This property will not change */
+  background-color: #000000; /* This property will not change */
+  color: #fff; /* This property will not change */
+  text-align: left;
+}
+
+/* Hamburger Menu Imported */
+.material-symbols-outlined {
+  display: inline;
+  padding-left: 40%;
+}
+
+nav {
+  display: none; /* added */
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+main {
+  display: flex; /* Important */
+  justify-content: center;
+}
+
+.button {
+  background-color: #555;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 35%; /* added */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* width: 780px; */
+}
+
+.section {
+  padding: 10px; /* modificad */
+  background-color: #f1f1f1;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* modificad */
+}
+
+.section1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Id Added */
+#catImage2 {
+  width: 100%; /* fix the problem */
+  border-radius: 10px; /* added */
+  /* height: auto; */
+}
+
+/* Change .section1 to div */
+div h2 {
+  font-size: 1.5rem; /* modificad */
+  text-align: center; /* added */
+}
+
+.catGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.catGrid img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
